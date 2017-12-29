@@ -1,5 +1,11 @@
 html, body {
   margin: 5px 5px 10px 5px;
+  font-family: Play;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 50px;
 }
 .container {
 display: grid;
@@ -24,5 +30,18 @@ img {
   border-radius: 50%;
 }
 .item {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.whiteText {
+  color: #fff;
+}
+#hi {
   text-align: center;
+  margin-bottom: 500px;
+}
+#Mirza {
+  align-items: center; 
+  padding-top: 300px;
 }
