@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Menu from './components/Menu/Menu';
+import Profile from './components/Profile/Profile';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to my portfolio page.</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+                <div className="container">
+                  <Menu/>
+                  <Profile/>
+                  <div className="item white"></div>
+                  <div className="item black"></div>
+                  <div className="item black"></div>
+                  <div className="item white"></div>
+                  <div className="item white"></div>
+                  <div className="item black"></div>
+                </div>
       </div>
     );
   }
