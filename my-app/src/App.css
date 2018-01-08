@@ -1,16 +1,18 @@
 html, body {
-  margin: 5px 5px 10px 5px;
+  margin: 10px 10px 10px 8px;
   font-family: Play;
   text-align: center;
+  background-color:#b8b8b8;
 }
 a {
   text-decoration: none;
   font-size: 50px;
+  color: #fff;
 }
 .container {
 display: grid;
 grid-template-columns: 48vw 48vw;
-grid-template-rows: 48vw 48vw 48vw 48vw;
+grid-template-rows: 50vw 50vw 50vw 50vw;
 grid-gap: 2px;
 }
 .black {
@@ -19,11 +21,16 @@ background-color: #000;
 .white {
 background-color: #fff;
 }
-img {
+article {
+  text-align: justify;
+  margin: 5px 25px 5px 25px;
+  font-size: 25px;
+}
+#mirza {
   position:absolute;
-  top:25%;
+  top:20%;
   left:65%;
-  margin-top:-25px;
+  margin-top: -25px;
   margin-left:-25px;
   height: 300px;
   width: 300px;
@@ -37,11 +44,39 @@ img {
 .whiteText {
   color: #fff;
 }
-#hi {
-  text-align: center;
-  margin-bottom: 500px;
-}
 #Mirza {
-  align-items: center; 
-  padding-top: 300px;
+  padding-top: 250px;
+}
+.sites {
+  max-width: 90%;
+  max-height: 100%;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+.bigFont{
+  font-size: 100px;
+}
+
+button {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
